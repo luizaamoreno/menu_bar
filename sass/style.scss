@@ -1,0 +1,87 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.retangulo{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 280px;
+    height: 50px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    margin: 0 10px 0 10px;
+    color: rgb(95, 25, 95);
+
+    p{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 0.6rem;
+        margin: 0;
+    }
+
+    .centered{
+        margin-top: -30px;
+        background-color: purple;
+        padding: 6px;
+        width: 20px;
+        height: 20px;
+        rotate: 45deg;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        #seta{
+            position: absolute;
+            rotate:-45deg;
+            color: white;
+            font-size: 1.25rem;
+        }
+    }
+
+    .overview{
+        font-size: 1.1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 3px;
+    }
+
+    .portfolio{
+        font-size: 1.2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 3px;
+    }
+
+    .watchlist{
+        font-size: 1.1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 3px;
+    }
+
+    .more{
+        font-size: 1.1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 3px;
+    }
+}
+
+
+
+
